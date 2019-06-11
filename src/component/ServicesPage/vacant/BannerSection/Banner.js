@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.css'
+import '../BannerSection/Banner.css'
 import { Breadcrumb } from 'react-bootstrap'
 
 
@@ -14,7 +14,7 @@ const Banner = ({bannerheader, home, protfolio, currentpage}) => {
                             <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
                                {protfolio} 
                             </Breadcrumb.Item>
-                            <li className="curentLoactionSec">/ {currentpage}</li>
+                            <li className="curentLoactionSec"> / {currentpage}</li>
                     </Breadcrumb>
                 </div>
             </div>
