@@ -7,6 +7,7 @@ import Quote from './TextSlider/Quote'
 import TextSlider from './TextSlider/TextSlider'
 import HomePageSectionSubFive from './HomeStageSectionSubFive/HomeStageSectionSubFive'
 import HomePageSectionFive from './HomeStageSectionFive/HomeStageSectionFive'
+import HomePageSectionPhoto from './HomeStageSectionPhoto/HomeStageSectionPhoto'
 export default class HomePage extends Component {
   render() {
     return (
@@ -15,6 +16,7 @@ export default class HomePage extends Component {
        <HomePageSectionTwo/> 
        <HomePageSectionThree/> 
        <HomePageSectionFour/> 
+       <HomePageSectionPhoto/>
        <HomePageSectionSubFive/>
        <HomePageSectionFive/>
        <Quote/>
