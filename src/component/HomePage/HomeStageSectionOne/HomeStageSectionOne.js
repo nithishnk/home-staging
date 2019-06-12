@@ -28,7 +28,7 @@ export default class HomeStageSectionOne extends Component {
             
         </section>
         <h3 className="poet_padding">Jhon Dunmin-Poet</h3>
-        <a href=""><i class="fas fa-chevron-circle-down circle-style"></i></a>
+        <a href="#"><i class="fas fa-chevron-circle-down circle-style"></i></a>
         
         </div>
         </div>

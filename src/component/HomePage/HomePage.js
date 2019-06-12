@@ -5,6 +5,8 @@ import HomePageSectionThree from './HomeStageSectionThree/HomeStageSectionThree'
 import HomePageSectionFour from './HomeStageSectionFour/HomeStageSectionFour'
 import Quote from './TextSlider/Quote'
 import TextSlider from './TextSlider/TextSlider'
+import HomePageSectionSubFive from './HomeStageSectionSubFive/HomeStageSectionSubFive'
+import HomePageSectionFive from './HomeStageSectionFive/HomeStageSectionFive'
 export default class HomePage extends Component {
   render() {
     return (
@@ -13,6 +15,8 @@ export default class HomePage extends Component {
        <HomePageSectionTwo/> 
        <HomePageSectionThree/> 
        <HomePageSectionFour/> 
+       <HomePageSectionSubFive/>
+       <HomePageSectionFive/>
        <Quote/>
        <TextSlider/> 
       </div>
