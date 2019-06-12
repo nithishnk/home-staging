@@ -7,13 +7,7 @@ export default class Sectionone extends Component {
   render() {
     return (
       <div className="bg-clr">
-      <div className="container pt-5" >
-      <div className="row">
-
-      <h2 className="pb-5 pl-4">OTHER PROJECTS</h2>
-      </div>
-      </div>
-      <div className="container">
+      <div className="container mt-5">
       <div className="row">
       
       <div className="col-md-4 p-0">

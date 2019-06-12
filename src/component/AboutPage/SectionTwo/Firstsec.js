@@ -20,7 +20,6 @@ export default class Firstsec extends Component {
 
                             <div className="col-md-6 col-sm-12" data-aos="fade-left">
                                 <p className="text3">Sue Kempton has over 20 years of experience in home staging. Sue is extremely focussed and does her best with each project. Her goal for each property is that she transforms it into getting it sold for TOP DOLLAR in record time! </p>
-
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ const LatestProjects = () => {
                     <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 ourProjectSectionWraper" data-aos="fade-down">
                         <div className="ourLastestSec">
                             <h3>OUR SERVICES</h3>
-                            <p>Make sure your property looks its BEST with FINESSE! </p>
+                            <p className="txt-italic">Make sure your property looks its BEST with FINESSE! </p>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 ourProjectSectionWraper" data-aos="flip-down">

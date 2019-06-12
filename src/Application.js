@@ -10,12 +10,13 @@ import IndividualPortfolioTwo from './component/Portfolio/IndividualPortfolioSec
 import IndividualPortfolioThree from './component/Portfolio/IndividualPortfolioThird/IndividualPortfolioThird';
 import IndividualPortfolioFour from './component/Portfolio/IndividualPortfolioFourth/IndividualPortfolioFourth';
 import Vacant from '../src/component/ServicesPage/vacant/IndividualPortfolioSecond'
+import HomePage from './component/HomePage/HomePage'
 export default class Firstsec extends Component {
     render() {
         return (
 		<div>
 		<Router>
-		<Route path="/" exact component={Home}/>
+		<Route path="/" exact component={HomePage}/>
 		<Route path="/about" exact component={About}/>
 		<Route path="/service" exact component={Service}/>
 		<Route path="/vacant" exact component={Vacant}/>

@@ -2,12 +2,10 @@ import React, { Component } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Services.css'
-import Header from '../Navbar'
 import ServiceSectionOne from './BannerSection/Banner'
 import ServiceSectionTwo from './Latestprojects/LatestProjects'
 import ServiceSectionThree from './ImageSection/ImageSection'
 import Enquiry from '../Enquiry/Enquiry'
-import Footer from '../SectionSeventh/SectionSeventh'
 
 import {Tabs,Tab,Sonnet} from 'react-bootstrap'
 AOS.init();
@@ -22,7 +20,6 @@ currentpage:"All Services",
 
     render() {
         return (
-		
 		<div className="App">
 <ServiceSectionOne 
 bannerheader={this.state.bannerheader}
@@ -30,7 +27,6 @@ home={this.state.home}
 protfolio={this.state.protfolio}
 currentpage={this.state.currentpage}
 />
-<Header/>
 <ServiceSectionTwo/>
 <br>
 </br>
@@ -59,7 +55,6 @@ currentpage={this.state.currentpage}
 </Tabs>
 </div>
 <Enquiry/>
-<Footer/>
 </div>
 
 		)

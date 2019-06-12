@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Header from '../Navbar'
 import ServiceSectionOne from '../ServicesPage/BannerSection/Banner'
 import ServiceSectionTwo from '../ServicesPage/Latestprojects/LatestProjects'
 import ServiceSectionThree from '../ServicesPage/ImageSection/ImageSection';
 import Enquiry from '../Enquiry/Enquiry'
-import Footer from '../../component/SectionSeventh/SectionSeventh';
 import { Tabs, Tab, Sonnet } from 'react-bootstrap'
 AOS.init();
 
@@ -58,7 +56,6 @@ export default class Portfolio extends Component {
                         protfolio={this.state.protfolio}
                         currentpage={this.state.currentpage}
                     />
-                    <Header />
                     <ServiceSectionTwo />
                     <br>
                     </br>
@@ -92,7 +89,6 @@ export default class Portfolio extends Component {
                         </div>
                     </div>
 					<Enquiry/>
-                    <Footer />
                 </div>
             </div>
         )

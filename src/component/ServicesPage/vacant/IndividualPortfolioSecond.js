@@ -14,7 +14,7 @@ export default class IndividualPortfolio extends Component {
 	<div>
 	<Header/>
 	<Banner/>
-	<Tabls/>
+	{/*<Tabls/>*/}
 	<SectionTwo/>
 	<SectionOne/>
 	<SectionFour/>
