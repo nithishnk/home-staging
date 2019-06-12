@@ -13,7 +13,7 @@
     margin-bottom: 10px;
   }
   
-  .content {
+  .cont {
     position: relative;
     width: 100%;
     
@@ -21,7 +21,7 @@
     overflow: hidden;
   }
   
-  .content .content-overlay {
+  .cont .cont-overlay {
     background: rgba(0,0,0,0.7);
     position: absolute;
     height: 100%;
@@ -36,15 +36,15 @@
     transition: all 0.4s ease-in-out 0s;
   }
   
-  .content:hover .content-overlay{
+  .cont:hover .cont-overlay{
     opacity: 1;
   }
   
-  .content-image{
+  .cont-image{
     width: 100%;
   }
   
-  .content-details {
+  .cont-details {
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -60,7 +60,7 @@
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  .content-details1 {
+  .cont-details1 {
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -76,27 +76,27 @@
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
-  .content-details1 h1{
+  .cont-details1 h1{
       color:#fff;
   }
-  .content .content-details1{
+  .cont .cont-details1{
     top: 50%;
     left: 50%;
     opacity: 1;
   }
-  .content:hover .content-details1{
+  .cont:hover .cont-details1{
     top: 28%;
     left: 50%;
     opacity: 1;
   }
   
-  .content:hover .content-details{
+  .cont:hover .cont-details{
     top: 50%;
     left: 50%;
     opacity: 1;
   }
   
-  .content-details h3{
+  .cont-details h3{
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
@@ -104,7 +104,7 @@
     text-transform: uppercase;
   }
   
-  .content-details p{
+  .cont-details p{
     color: #fff;
     /* font-size: 0.8em; */
     padding-top: 15%;
@@ -133,7 +133,7 @@
 }
 
  .cool-link::after {
-    content: '';
+    cont: '';
     display: block;
     width: 0;
     height: 2px;

@@ -8,14 +8,14 @@ export default class HomeStageSectionThree extends Component {
                 <div class="container-fulid">
                  <div className="row mx-0">
                    <div className="col-md-4 p-0">
-                       <div class="content">
-                         <div class="content-overlay"></div>
-                          <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
-                          <div  className="content-details1 fadeIn-bottom">
-                          <h1 class="content-title">KITCHEN DESIGN</h1>
+                       <div class="cont">
+                         <div class="cont-overlay"></div>
+                          <img class="cont-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                          <div  className="cont-details1 fadeIn-bottom">
+                          <h1 class="cont-title">KITCHEN DESIGN</h1>
                            </div>
-                          <div class="content-details   fadeIn-bottom">
-                          <p class="content-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
+                          <div class="cont-details   fadeIn-bottom">
+                          <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
                           <Button href="#">View Detail</Button>
@@ -25,14 +25,14 @@ export default class HomeStageSectionThree extends Component {
                             </div>
                             </div>
                             <div className="col-md-4 p-0">
-                       <div class="content">
-                         <div class="content-overlay"></div>
-                          <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
-                          <div  className="content-details1 fadeIn-bottom">
-                          <h1 class="content-title">FLOORING DESIGN</h1>
+                       <div class="cont">
+                         <div class="cont-overlay"></div>
+                          <img class="cont-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                          <div  className="cont-details1 fadeIn-bottom">
+                          <h1 class="cont-title">FLOORING DESIGN</h1>
                            </div>
-                          <div class="content-details   fadeIn-bottom">
-                          <p class="content-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
+                          <div class="cont-details   fadeIn-bottom">
+                          <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
                           <Button href="#">View Detail</Button>
@@ -42,14 +42,14 @@ export default class HomeStageSectionThree extends Component {
                             </div>
                             </div>
                             <div className="col-md-4 p-0">
-                       <div class="content">
-                         <div class="content-overlay"></div>
-                          <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
-                          <div  className="content-details1 fadeIn-bottom">
-                          <h1 class="content-title">INTERIOR DESIGN</h1>
+                       <div class="cont">
+                         <div class="cont-overlay"></div>
+                          <img class="cont-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362"/>
+                          <div  className="cont-details1 fadeIn-bottom">
+                          <h1 class="cont-title">INTERIOR DESIGN</h1>
                            </div>
-                          <div class="content-details   fadeIn-bottom">
-                          <p class="content-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
+                          <div class="cont-details   fadeIn-bottom">
+                          <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
                           <Button href="#">View Detail</Button>
