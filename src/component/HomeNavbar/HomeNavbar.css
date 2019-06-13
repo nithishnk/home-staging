@@ -4,7 +4,7 @@ z-index: 1;
 width: 100%;
 font-weight: bold;
 color:#444444;
-background-image: linear-gradient(#e5e5e5,white);
+background-image: linear-gradient(white,#e5e5e5);
 }
 .dropdown-item:active {
   
@@ -65,4 +65,8 @@ background-image: linear-gradient(#e5e5e5,white);
 .stky
 {
     position: fixed;
+}
+.logo-pad{
+    padding-top: 0;
+    padding-bottom: 0;
 }

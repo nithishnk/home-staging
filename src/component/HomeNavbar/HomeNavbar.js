@@ -7,11 +7,11 @@ export default class HomeNavbar extends Component {
         return (
             <div className="Navbar_Home_Section">
                 <Navbar className="stky" collapseOnSelect expand="lg " >
-                <Navbar.Brand href="#home">
+                <Navbar.Brand className="logo-pad" href="#home">
       <img
         src={s}
-        width="60"
-        height="60"
+        width="35"
+        height="35"
         className="d-inline-block align-top"
         alt=" logo"
       />
