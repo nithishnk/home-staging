@@ -6,7 +6,7 @@ export default class HomeNavbar extends Component {
     render() {
         return (
             <div className="Navbar_Home_Section">
-                <Navbar collapseOnSelect expand="lg" >
+                <Navbar className="stky" collapseOnSelect expand="lg " >
                 <Navbar.Brand href="#home">
       <img
         src={s}
@@ -32,7 +32,6 @@ export default class HomeNavbar extends Component {
         <NavDropdown.Item href="#">Broker</NavDropdown.Item>
         <NavDropdown.Item href="#">Real Estate</NavDropdown.Item>
         <NavDropdown.Divider />
-        
         </NavDropdown> */}
       <Nav.Link href="/portfolio">Portfolio</Nav.Link>
       <Nav.Link href="/contact">Contact Us</Nav.Link>
@@ -40,6 +39,7 @@ export default class HomeNavbar extends Component {
   </Navbar.Collapse>
 </Navbar>
             </div>
+            
         )
     }
 }

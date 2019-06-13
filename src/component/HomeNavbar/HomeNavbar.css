@@ -1,19 +1,17 @@
 .Navbar_Home_Section .navbar
-
 {
-position: absolute;
 z-index: 1;
 width: 100%;
 font-weight: bold;
-color: black;
+color:#444444;
+background-image: linear-gradient(#e5e5e5,white);
 }
 .dropdown-item:active {
   
 }
 .Navbar_Home_Section .dropdown-item.active, .dropdown-item:active {
-    color: black;
-    text-decoration: none;
-    background-color: transparent !important;
+    color: #444444;
+    text-decoration: none; 
     font-weight:bold;
 }
 .Navbar_Home_Section .dropdown-divider {
@@ -27,10 +25,10 @@ color: black;
     font-weight: bold;
 }
 .Navbar_Home_Section .navbar-nav .dropdown-menu {
-   background-color: transparent;
+   background-color: gray;
 }
 .Navbar_Home_Section .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: #444444;
 }
 @media (min-width: 992px)
 {
@@ -60,7 +58,11 @@ color: black;
         text-align: center;
     }
     .Navbar_Home_Section .navbar-nav .dropdown-menu {
-        background-color: transparent;
+        
         border: none;
     }
+}
+.stky
+{
+    position: fixed;
 }

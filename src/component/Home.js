@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from '../component/Navbar'
 import SectionThird from '../component/SectionThird/SectionThird'
 //import SectionFirst from '../component/SectionFirst/SectionFirst'
 import SectionSecond from '../component/SectionSecond/SectionSecond'
@@ -17,10 +16,7 @@ render()
 {
 return(
 <div>
-
-<Navbar/>
 <SectionThird/>
-
 <SectionSecond/>
 <HomeStageSectionThree/>
 <SectionFourth/>
