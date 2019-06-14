@@ -24,8 +24,8 @@ return(
    
                <div className={description.customeStyleSectionOne}>
                    <img className="photo_img_res" src={description.photo}/>
-                   <h3 className="pt-5">{description.title}</h3>
-                   <p className="pt-3 photo_padding_text">{description.para}</p>
+                   <h3 className="pt-5 txt-head2">{description.title}</h3>
+                   <p className="pt-3 photo_padding_text txt-content">{description.para}</p>
                    </div>
                   
                   

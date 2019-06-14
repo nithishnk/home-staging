@@ -86,7 +86,9 @@ function SwipeableTextMobileStepper() {
           
             {Math.abs(activeStep - index) <= 2 ? (
 
-              <div><p className="lab-style">{step.label}</p> <p className="style-txt pt-5"> {step.name} <br/> {step.para} </p></div>
+              <div><p className="lab-style">{step.label}</p> <p className="style-txt  pt-5"> {step.name}</p>
+              <p className="style-txt2">{step.para}</p>
+              </div>
               
             ) : null}
           </div>

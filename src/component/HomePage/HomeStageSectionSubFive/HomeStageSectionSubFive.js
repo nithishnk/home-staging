@@ -12,7 +12,7 @@ export default class HomeStageSectionSubFive extends Component {
 </div>
 <div className="col-md-6">
 
-    <p className="HomeSubSelectionfivepara1">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one.</p>
+    <p className="HomeSubSelectionfivepara1 txt-content">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one.</p>
 </div>
 
                     </div>

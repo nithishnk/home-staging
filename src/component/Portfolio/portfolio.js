@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ServiceSectionOne from '../ServicesPage/BannerSection/Banner'
-import ServiceSectionTwo from '../ServicesPage/Latestprojects/LatestProjects'
-import ServiceSectionThree from '../ServicesPage/ImageSection/ImageSection';
+import ServiceSectionOne from '../Portfolio/BannerSection/Banner'
+import ServiceSectionTwo from '../Portfolio/Latestprojects/LatestProjects'
+import ServiceSectionThree from '../Portfolio/ImageSection/ImageSection';
 import Enquiry from '../Enquiry/Enquiry'
 import { Tabs, Tab, Sonnet } from 'react-bootstrap'
 AOS.init();
@@ -59,8 +59,9 @@ export default class Portfolio extends Component {
                     <ServiceSectionTwo />
                     <br>
                     </br>
-                    {/* <ServiceSectionThree data="all" /> */}
-                    <div className="imageSectionHomeStaging" style={{ marginTop: "2%" }}>
+                    
+                    <ServiceSectionThree data="all" /> 
+                    {/*<div className="imageSectionHomeStaging" style={{ marginTop: "2%" }}>
                         <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <div className="row">
                                 {
@@ -69,7 +70,7 @@ export default class Portfolio extends Component {
                                             <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 imgPds p-4">
 
                                                 <div class="" style={{boxShadow: "0 4px 8px #dcdcdc"}}>
-                                                        {/* <div class="content-overlay"></div> */}
+                                                 <div class="content-overlay"></div> 
                                                         <img class="content-image" src={data.image} />
                                                         <div class="content-details fadeIn-top">
                                                             <div class="btn-6">
@@ -87,7 +88,8 @@ export default class Portfolio extends Component {
                                 }
                             </div>
                         </div>
-                    </div>
+                            </div>*/}
+                    
 					<Enquiry/>
                 </div>
             </div>

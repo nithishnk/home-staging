@@ -4,7 +4,8 @@ import 'aos/dist/aos.css';
 import './Services.css'
 import ServiceSectionOne from './BannerSection/Banner'
 import ServiceSectionTwo from './Latestprojects/LatestProjects'
-import ServiceSectionThree from './ImageSection/ImageSection'
+// import ServiceSectionThree from './ImageSection/ImageSection'
+import AllServices from '../ServicesPage/AllServices/AllServices'
 import Enquiry from '../Enquiry/Enquiry'
 
 import {Tabs,Tab,Sonnet} from 'react-bootstrap'
@@ -34,25 +35,26 @@ currentpage={this.state.currentpage}
 <div style={{marginLeft:"4%",marginRight:"4%"}}>
 <Tabs defaultActiveKey="all" className="lineremoval" transition={false} id="noanim-tab-example">
 <Tab eventKey="all" title="All Services">
-<ServiceSectionThree data="all"/>
+{/*<ServiceSectionThree data="all"/>*/}
 </Tab>
 <Tab eventKey="design" title="Vacant">
-<ServiceSectionThree data="Vacant"/>
+{/*<ServiceSectionThree data="Vacant"/>*/}
 </Tab>
 <Tab eventKey="interior" title="Occupied">
-<ServiceSectionThree data="Occupied"/>
+{/*<ServiceSectionThree data="Occupied"/>*/}
 </Tab>
 <Tab eventKey="design1" title="Individuals">
-<ServiceSectionThree data="Individuals"/>
+{/*<ServiceSectionThree data="Individuals"/>*/}
 </Tab>
 <Tab eventKey="design2" title="Brokers">
-<ServiceSectionThree data="Brokers"/>
+{/*<ServiceSectionThree data="Brokers"/>*/}
 </Tab>
 <Tab eventKey="design3" title="Real Estate">
-<ServiceSectionThree data="Real Estate"/>
+{/*<ServiceSectionThree data="Real Estate"/>*/}
 </Tab>
 
 </Tabs>
+<AllServices/>
 </div>
 <Enquiry/>
 </div>

@@ -13,7 +13,7 @@ export default class HomeStageSection extends Component {
             <div className="row mx-0 MainSelection_Home">
                 <div className="container Home_MainSelection">
 
-                <h1 className="title_Home_style">WELCOME TO H&D</h1>
+                <h1 className="title_Home_style txt-head">WELCOME TO H&D</h1>
                 <h4 className="pb-5 Paragrap_style">We hope that you will find inspiration here!</h4>
                 <div className="row mx-0">   
 

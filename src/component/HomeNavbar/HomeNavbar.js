@@ -8,7 +8,7 @@ export default class HomeNavbar extends Component {
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 500) {
+    if (window.scrollY > 300) {
       this.setState({backgroundColor: '#e5e5e5'})
     } else {
       this.setState({backgroundColor: 'transparent'})
