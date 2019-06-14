@@ -3,10 +3,25 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap'
 import './HomeNavbar.css'
 import s from '../../images/logo.png'
 export default class HomeNavbar extends Component {
+  state = {
+    backgroundColor: 'transparent;'
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 500) {
+      this.setState({backgroundColor: '#e5e5e5'})
+    } else {
+      this.setState({backgroundColor: 'transparent'})
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
     render() {
         return (
             <div className="Navbar_Home_Section">
-                <Navbar className="stky" collapseOnSelect expand="lg " >
+                <Navbar style={{backgroundColor: this.state.backgroundColor}} className="stky" collapseOnSelect expand="lg " >
                 <Navbar.Brand className="logo-pad" href="#home">
       <img
         src={s}

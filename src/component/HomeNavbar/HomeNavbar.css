@@ -4,7 +4,8 @@ z-index: 1;
 width: 100%;
 font-weight: bold;
 color:#444444;
-background-image: linear-gradient(white,#e5e5e5);
+
+
 }
 .Navbar_Home_Section :hover{
     color:#38a4b4 !important;
