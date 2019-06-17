@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import {  Modal,  } from 'react-bootstrap';
 import Sofa from '../../../../images/sofa.png'
-import Hall from '../../../../images/hall.png'
-import Bed from '../../../../images/bedroomimage.png'
 import Lift from '../../../../images/lift.png'
 import Cross from '../../../../images/cross.png'
 import floor from '../../../../images/floor.png'
+import Before from '../../../../images/Portfolio/b2.png'
+import After from '../../../../images/Portfolio/a2.png'
 import './Boxmodel.css'
 
 export default class Boxmodel extends Component {
@@ -72,7 +72,7 @@ export default class Boxmodel extends Component {
 <article id="link-boxes">
   	
 			<a ui-sref="connect" id="careers" class="gold-outliner" >
-				<img className="IM" src={Hall}  /> 
+				<img className="IM" src={Before}  /> 
 				<div class="overlay">
 					<div class="text-border text-border-top"></div>
 
@@ -88,7 +88,7 @@ export default class Boxmodel extends Component {
 <article id="link-boxes">
   	
 			<a ui-sref="connect" id="careers" class="gold-outliner" >
-				<img className="IM" src={Bed}  /> 
+				<img className="IM" src={After}  /> 
 				<div class="overlay">
 					<div class="text-border text-border-top"></div>
 					<p onClick={this.seondHandleShow}><i class="fas fa-search G_T"></i></p>
@@ -162,10 +162,10 @@ export default class Boxmodel extends Component {
           <img class="content-ima" src={Sofa}/>
           </Modal>
           <Modal show={this.state.show1} onHide={this.handleClose}>
-          <img class="content-ima" src={Hall}/>
+          <img class="content-ima img-wid" src={Before}/>
           </Modal>
           <Modal show={this.state.vis} onHide={this.handleClose}>
-          <img class="content-ima" src={Bed}/>
+          <img class="content-ima img-wid" src={After}/>
           </Modal>
           <Modal show={this.state.show2} onHide={this.handleClose}>
           <img class="content-ima" src={Lift}/>
