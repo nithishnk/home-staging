@@ -22,7 +22,7 @@ export default class Firstsec extends Component {
 		<Route path="/vacant" exact component={Vacant}/>
 		<Route path="/contact" exact component={Contact}/>
 		<Route path="/portfolio" exact component={Portfolio}/>
-		<Route path="/portfoliofirst" exact component={IndividualPortfolioOne}/>
+		<Route path="/IndividualPortfolioOne" exact component={IndividualPortfolioOne}/>
 		<Route path="/portfoliosecond" exact component={IndividualPortfolioTwo}/>
 		<Route path="/portfoliothird" exact component={IndividualPortfolioThree}/>
 		<Route path="/portfoliofourth" exact component={IndividualPortfolioFour}/>

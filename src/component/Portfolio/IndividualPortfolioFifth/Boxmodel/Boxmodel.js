@@ -6,7 +6,6 @@ import Bed from '../../../../images/bedroomimage.png'
 import Lift from '../../../../images/lift.png'
 import Cross from '../../../../images/cross.png'
 import floor from '../../../../images/floor.png'
-import Before from '../../../../images/Portfolio/Portfolio 1.1.jpg'
 import './Boxmodel.css'
 
 export default class Boxmodel extends Component {
