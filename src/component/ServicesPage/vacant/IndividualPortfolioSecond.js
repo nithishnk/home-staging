@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import SectionOne from './sectionone/Sectionone'
 import Enquiry from '../../Enquiry/Enquiry'
-import Banner from '../vacant/BannerSection/Banner'
-import Tabls from '../vacant/Tabl/Tabl'
+import Banner from '../BannerSection/Banner'
+import Tabs from '../Services'
 import SectionTwo from '../vacant/SectionTwo/SectionTwo'
 import SectionFour from '../vacant/SectionFour/SectionFour'
 export default class IndividualPortfolio extends Component {
@@ -10,7 +10,7 @@ export default class IndividualPortfolio extends Component {
     return (
 	<div>
 	<Banner/>
-	{/*<Tabls/>*/}
+	<Tabs/>
 	<SectionTwo/>
 	<SectionOne/>
 	<SectionFour/>

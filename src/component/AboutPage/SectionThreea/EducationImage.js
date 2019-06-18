@@ -4,7 +4,6 @@ import Image1 from '../../../images/edimage1.jpg'
 import Image2 from '../../../images/edimage2.jpg'
 import Image3 from '../../../images/edimage3.jpg'
 
-
 export default class EducationImage extends Component {
     render() {
         return (
@@ -20,7 +19,6 @@ export default class EducationImage extends Component {
                     <div className="col-md-4 p-0">
                     <img style={{width:"100%",paddingRight:"1px"}} src={Image3} alt=""/>
                     </div>
-
                 </div>
                </div>
             </div>

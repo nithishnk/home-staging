@@ -12,16 +12,16 @@ export default class HomeStageSectionOne extends Component {
                 
                 <div class="rw-words rw-words-1">
                     <h1 className="txt-slider">Hello,Friend We are</h1>
-                    <h1>Learm IpSum</h1>
-                    <h1>Loarm Multar</h1>
+                    <h1 className="txt-slider">Learm IpSum</h1>
+                    <h1 className="txt-slider">Loarm Multar</h1>
                     
                    
                 </div>
 
                 <div class="rw-words2 rw-words-3">
-                   <h1 className="">Hello,Friend We are</h1>
-                    <h1>Learm IpSum</h1>
-                    <h1>Loarm Multar</h1>
+                   <h1 className="txt-slider">Hello,Friend We are</h1>
+                    <h1 className="txt-slider">Learm IpSum</h1>
+                    <h1 className="txt-slider">Loarm Multar</h1>
                     {/* <h1>wonder</h1> */}
                    
                 </div>

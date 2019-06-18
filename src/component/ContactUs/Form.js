@@ -12,7 +12,6 @@ export default class header extends Component {
                       <div className="vertical-text">
                      Contact
                       </div>
-
 </div>
                         <div className="col-md-2">
                         <p>"Lorem ipsum dolor sit amet,
@@ -23,22 +22,16 @@ export default class header extends Component {
                           </div>
 <div className="col-md-8 col-sm-12 signinparent">
 <form>
-                  
-                    <div className="row">  
-                    
-                    <div className="col-6">
+     <div className="row">  
+                <div className="col-6">
                     <input type="Text"  required autoComplete="off" />
                     <label>Name</label> 
                     </div>
-                   
-                    <div className="col-6">
+                   <div className="col-6">
                     <input type="email"  required autoComplete="off" />
                     <label>Email</label> 
                     </div>
-                    
-                    
-
-                       <div className="col-12">  
+            <div className="col-12">  
                     <input type="text"  required autoComplete="off" />
                     <label>Message</label> 
                     </div>

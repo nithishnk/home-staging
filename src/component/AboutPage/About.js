@@ -6,7 +6,6 @@ import SectionThreea from './SectionThreea/EducationImage'
 import SectionFour from './SectionFour/SectionFour'
 import Enquiry from '../Enquiry/Enquiry'
 
-
 export default class Home extends Component {
 render()
 {

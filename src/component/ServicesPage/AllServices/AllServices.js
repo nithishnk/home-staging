@@ -12,7 +12,7 @@ export default class HomeStageSectionThree extends Component {
     render() {
         return (
             <div>
-                <div class="container-fulid">
+                <div class="container">
                  <div className="row">
                    <div className="col-md-4 pad-img pr-1 pb-0 pl-0 pt-0 mx-0">
                        <div class="cont">
@@ -44,7 +44,7 @@ export default class HomeStageSectionThree extends Component {
                           <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
-                          <Button href="#">View Detail</Button>
+                          <Button href="/Occupied">View Detail</Button>
                           </ButtonToolbar>
                           </div>
                            </div> 
@@ -61,7 +61,7 @@ export default class HomeStageSectionThree extends Component {
                           <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
-                          <Button href="#">View Detail</Button>
+                          <Button href="/Individuals">View Detail</Button>
                           </ButtonToolbar>
                           </div>
                            </div> 
@@ -79,7 +79,7 @@ export default class HomeStageSectionThree extends Component {
                              <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                             <div className="Button_Style_Home cool-link ">
                             <ButtonToolbar>
-                             <Button href="#">View Detail</Button>
+                             <Button href="/Brokers">View Detail</Button>
                              </ButtonToolbar>
                              </div>
                               </div> 
@@ -97,7 +97,7 @@ export default class HomeStageSectionThree extends Component {
                              <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
                             <div className="Button_Style_Home cool-link ">
                             <ButtonToolbar>
-                             <Button href="#">View Detail</Button>
+                             <Button href="/RealEstate">View Detail</Button>
                              </ButtonToolbar>
                              </div>
                               </div> 

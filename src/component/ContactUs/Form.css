@@ -22,44 +22,34 @@
   border: none;
   border-bottom: 1px solid rgb(168, 166, 166);
 }
-
 .form-control:focus {
   box-shadow: none !important;
 }
-
 .sidenav {
   height: 100%;
-  /* width: 160px; */
   float:right;
   text-align: center;
-  
   position:relative;
   top: -25px;
   left: 0;
-  
   overflow-x: hidden;
   padding-top: 20px;
   }
-
-  .b1{
+ .b1{
     float:right;
     border-radius:0 !important; 
     position: relative;
     top: 25px;
     
   }
-
-  .sidenav a {
-      /* padding: 6px 8px 6px 16px; */
+ .sidenav a {
       text-decoration: none;
       font-size: 15px;
       color: #818181;
       display: block;
-      padding:10px;
-     
+      padding:10px; 
       }
-
-      .name1:focus{
+.name1:focus{
         display: block;
         position: relative;
         top: -30px;
@@ -69,11 +59,8 @@
         z-index: 1;
         transition: all 0.3s ease;
         font-weight: normal;
-    
-      }
-
-      
-     .signinparent label{
+}
+.signinparent label{
          display: block;
          position: relative;
          top: -30px;
@@ -83,18 +70,15 @@
          z-index: 1;
          transition: all 0.3s ease;
          font-weight: normal;
-     
-     }
-     .signinparent .password{
+}
+.signinparent .password{
          display: block;
          position: relative;
          background: none;
          border: none;
-         
          color: black;
-         
          width: 100%;
-          font-weight: bold;
+        font-weight: bold;
          font-size: 16px;
          z-index: 2;     
      }
@@ -104,41 +88,33 @@
          background: none;
          border: none;
          border-bottom: 1px solid black;
-         
          color: black;
-         
          width: 100%;
-          font-weight: bold;
+         font-weight: bold;
          font-size: 16px;
          z-index: 2;     
-         
-     }
+            }
      .signinparent input:focus , input:valid{
          outline: none;
          border-bottom: 1px solid black;
      }
-     
-     .signinparent input:focus + label , input:valid + label
+      .signinparent input:focus + label , input:valid + label
      {
          top: -60px;
          font-size: 18px;
          color: black;
          font-weight: lighter;
-     
      }
      .customname{
        background-color: black !important;
        color: white !important;
      }
-     
-     
      .signinparent .desc
      {
          color: black;
          margin-top: 30px;
          font-size: 33px;
      }
-     
      .signinparent .header
      {
          color:black;
@@ -151,7 +127,6 @@
      .signinparent .customname
      {
          color: black;
-        
          float: right;
          font-size: 22px;
          offset: rgb(3,3,45);
@@ -164,10 +139,7 @@
          border-top: none;
          border-radius: 0 !important;
          border-bottom-color:white;
-
-         
-     }
-     
-     .signinparent .nothavingaccount{
+}
+      .signinparent .nothavingaccount{
          color: black;
      }
