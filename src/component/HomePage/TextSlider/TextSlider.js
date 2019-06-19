@@ -13,20 +13,23 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
   {
-    label: 'With H&D, I’m part of the creative process. So not only is my interior design unique, it’s also uniquely me. The end result is not merely a design statement, but a reflection of my identity',
+    label: '“We just walked in and there were no words to describe how beautiful it feels in here. We are very impressed and so very excited. Hats off to you and your team”',
     name:'MARTHA STANLEY',
     para:'South Carolina',
   },
   {
-    label: 'H&D was super to work with from concept to final product. Their keen eye and expert design sense is beyond compare. They were such fun to work with as well as being a true professional',
+    label: '“Your beautiful staging was the key in making these offers pour in so quickly!You Absoulutly kick ass at what you do lady!”',
     name:'Sergio Ramos',
     para:'Central Madrid',
   },
   {
-    label: 'With H&D, I’m part of the creative process. So not only is my interior design unique, it’s also uniquely me. The end result is not merely a design statement, but a reflection of my identity',
-    name:'Sergio Ramos',
+    label: '“This look amazing! you guys did an unreal job. Worth every penny. Not to mention you were an absolute joy to work with”.',
     para:'Central Madrid',
   },
+  {
+    label: '“I have had many people tell me how amazing it looks and what a transformation it was. Your eye for simple elegance showcased our house in the best light”.',
+    para:'Central Madrid',
+  }
   
 ];
 
@@ -86,8 +89,8 @@ function SwipeableTextMobileStepper() {
           
             {Math.abs(activeStep - index) <= 2 ? (
 
-              <div><p className="lab-style">{step.label}</p> <p className="style-txt  pt-5"> {step.name}</p>
-              <p className="style-txt2">{step.para}</p>
+              <div><p className="lab-style">{step.label}</p> {/*<p className="style-txt  pt-5"> {step.name}</p>
+            <p className="style-txt2">{step.para}</p>*/} 
               </div>
               
             ) : null}

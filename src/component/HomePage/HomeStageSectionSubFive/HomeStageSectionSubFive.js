@@ -8,11 +8,11 @@ export default class HomeStageSectionSubFive extends Component {
                     <div className="row mx-0">
 <div className="col-md-6">
     <h1 className="HomeSubSelectionfiveTitle">LATEST PROJECT</h1>
-    <span className="HomeSubSelectionfivepara">We believe in long term design value, which we acheive by selecting quality pieces and through timeless design.</span>
+    <span className="HomeSubSelectionfivepara">Stages homes sell 88% faster and 20% more money!.</span>
 </div>
 <div className="col-md-6">
 
-    <p className="HomeSubSelectionfivepara1 txt-content">Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one.</p>
+    <p className="HomeSubSelectionfivepara1 txt-content">Let Finesse Interiors Real Estate Staging make this statistic a REALITY for you and your Clients! By staging homes, clients can easily visualize their life in the home.  Home staging showcases the house in a new spot-light with distinctive features such as planning, organizing, and implementing the space usage with an eye to detail rendering the space splendid and elegant. The home staging is done to make the place more appealing and vibrant with the use of art, accessories and other crafts that beautify the home.</p>
 </div>
 
                     </div>

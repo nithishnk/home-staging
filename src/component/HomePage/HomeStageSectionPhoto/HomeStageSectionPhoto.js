@@ -5,9 +5,9 @@ export default class HomeStageSectionPhoto extends Component {
     state={
         data:[
 
-            {  customeStyleSectionOne:'col-md-4 Photo_border_right ' ,photo:round,  title:'WHY H&D',para:'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users.'},
-            {customeStyleSectionOne:'col-md-4 Photo_border_right ', photo:round,  title:'VISION & MISSION',para:'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users.'},
-            {customeStyleSectionOne:'col-md-4 Photo_border_right_no', photo:round,  title:'OUR VALUES',para:'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users.'}
+            {  customeStyleSectionOne:'col-md-4 Photo_border_right ' ,photo:round,  title:'WHY US',para:'We have many years of experience in designing homes with innovation and fine workmanship.'},
+            {customeStyleSectionOne:'col-md-4 Photo_border_right ', photo:round,  title:'VISION & MISSION',para:'Our vision and mission is to maximize your profits by Homestaging.'},
+            {customeStyleSectionOne:'col-md-4 Photo_border_right_no', photo:round,  title:'OUR VALUES',para:'Passion and dedication for our work makes us provide 100% customer satisfaction.'}
         ]
     }
     render() {

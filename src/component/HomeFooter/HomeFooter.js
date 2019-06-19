@@ -23,10 +23,10 @@ export default class HomeFooter extends Component {
         className="d-inline-block align-top"
         alt=" logo"
       />
-            <h1 className="pt-5 txt-head">LET’S HEAR YOU!</h1>
-<h4 className="footer_text_Home">Ready to take it a step further? Let’s start talking about your project or idea and find out how we can help you.</h4>
+            <h1 className="pt-5 txt-head">Ready to sell a property?</h1>
+<h4 className="footer_text_Home">Let's begin discussing your estate and find out how we can assist you.</h4>
 <ButtonToolbar>
-                          <Button href="#">Request a free quote</Button>
+                          <Button href="#">Request a consultation</Button>
                           </ButtonToolbar>
                           <i class="fab fa-facebook-f"></i>
                           <i class="fab fa-twitter"></i>
