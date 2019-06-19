@@ -76,9 +76,8 @@ export default class HomeFooter extends Component {
             </div>
               </div>
               <div style={{ height: '20px' }} />
-            </Parallax>
-            
-                    </div>
+            </Parallax>           
+            </div>
         )
     }
 }
