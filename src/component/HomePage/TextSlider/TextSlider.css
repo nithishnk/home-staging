@@ -1,11 +1,11 @@
-.txt-sld .makeStyles-root-1
+.txt-sldd .makeStyles-root-1
 {
 max-width: 100%;
 height:  100%;
 background-color: #FAFAFA !important;
 }
 
-.txt-sld .MuiTypography-root {
+.txt-sldd .MuiTypography-root {
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@ background-color: #FAFAFA !important;
     padding-top: 4rem;
     display: none;
 }
-.txt-sld .makeStyles-header-2
+.txt-sldd .makeStyles-header-2
 {
   height:100% !important;
 }
@@ -38,11 +38,11 @@ background-color: #FAFAFA !important;
     color: #000000;
     font-weight: 300;
 }
-.txt-sld #text{
+.txt-sldd #text{
   display: none;
   
 }
-.txt-sld .MuiMobileStepper-root {
+.txt-sldd .MuiMobileStepper-root {
 justify-content: center;
 }
 .lab-style
