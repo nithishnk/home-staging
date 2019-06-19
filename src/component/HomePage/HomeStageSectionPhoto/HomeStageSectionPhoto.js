@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
-import round from '../../../images/round.jpg'
+import Round1 from '../../../images/Home/round1.png'
+import Round2 from '../../../images/Home/round2.png'
+import Round3 from '../../../images/Home/round3.png'
 import  './HomeStageSectionPhoto.css'
 export default class HomeStageSectionPhoto extends Component {
     state={
         data:[
 
-            {  customeStyleSectionOne:'col-md-4 Photo_border_right ' ,photo:round,  title:'WHY US',para:'We have many years of experience in designing homes with innovation and fine workmanship.'},
-            {customeStyleSectionOne:'col-md-4 Photo_border_right ', photo:round,  title:'VISION & MISSION',para:'Our vision and mission is to maximize your profits by Homestaging.'},
-            {customeStyleSectionOne:'col-md-4 Photo_border_right_no', photo:round,  title:'OUR VALUES',para:'Passion and dedication for our work makes us provide 100% customer satisfaction.'}
+            {  customeStyleSectionOne:'col-md-4 Photo_border_right ' ,photo:Round1,  title:'WHY US',para:'We have many years of experience in designing homes with innovation and fine workmanship.'},
+            {customeStyleSectionOne:'col-md-4 Photo_border_right ', photo:Round2,  title:'VISION & MISSION',para:'Our vision and mission is to maximize your profits by Homestaging.'},
+            {customeStyleSectionOne:'col-md-4 Photo_border_right_no', photo:Round3,  title:'OUR VALUES',para:'Passion and dedication for our work makes us provide 100% customer satisfaction.'}
         ]
     }
     render() {

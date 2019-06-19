@@ -15,7 +15,7 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Kitchen}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">KITCHEN DESIGN</h1>
+                          <h1 class="cont-title">Vacant Staging</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
                           <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
@@ -32,7 +32,7 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Flooring}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">FLOORING DESIGN</h1>
+                          <h1 class="cont-title">Occupied Staging</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
                           <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
@@ -49,7 +49,7 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Interior}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">INTERIOR DESIGN</h1>
+                          <h1 class="cont-title">Interior Designing</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
                           <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>

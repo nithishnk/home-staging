@@ -60,7 +60,7 @@ export default class Sectionone extends Component {
 <div class="content-details fadeIn-top">
 <div class="group">
 
-<p className="pfont">Interior Design</p>
+<p className="pfont">Vacant Staging</p>
 <h4>Bloomfield St.</h4>
 
 <span className="spans pfont">View details</span>
@@ -78,7 +78,7 @@ export default class Sectionone extends Component {
 <div class="content-details content-details-modi1 fadeIn-top">
 <div class="group">
 
-<p className="pfont">Interior Design</p>
+<p className="pfont">Occupied Staging</p>
 <h4>Bloomfield St.</h4>
 
 <span className="spans pfont">View details</span>
@@ -96,7 +96,7 @@ export default class Sectionone extends Component {
 <div class="content-details fadeIn-top">
 <div class="group">
 
-<p className="pfont">Interior Design</p>
+<p className="pfont">Interior Designing (Redesign)</p>
 <h4>Bloomfield St.</h4>
 
 <span className="spans pfont">View details</span>
