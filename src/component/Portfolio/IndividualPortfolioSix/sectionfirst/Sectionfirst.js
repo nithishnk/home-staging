@@ -13,11 +13,13 @@ export default class Sectionfirst extends Component {
       <div className="container ">
       <div className="row ">
       <div className="col-md-6">
-        <h2 className="mt-5"></h2>
-        <span className="txt-property">Transformed it into a beautiful home with enormous natural lights.</span>
+        <h2 className="mt-5 txt-head">BANWELL HOUSE</h2>
+        <span className="txt-property">Make the best use of what is already available.</span>
         </div>
   <div className="col-md-6 pr-5" style={{fontSize:"1.2em"}}>
-        <p className="m-5">After inspecting and analyzing the residence up for sale, the most obvious issues were taken care of before home staging. Our opulent furnishings make the home a welcoming and alluring place that makes a customer feel happy and vibrant. It involved a lot of change in colour and other architectural changes.</p>
+        <p className="m-5">We have done some de-cluttering in Banwell House to remove all private items so that customers can imagine themselves in the home. Staging with furniture that blends with home allows customers to focus on what they like about their home.
+        The color of the wall enhanced natural light beauty, making the building very tempting and attractive. Considering that we added a center painting, and a hanging chandelier made the room more pleasing giving it a fresh look. Adequately scaled nightlamps made it look great to match the chandelier. 
+        According to statistics, if the home is staged, there are 49 percent increases in the dollar value offered.</p>
         <h6 className="share">SHARE</h6>
         <div className="share">
         <i class="fab fa-facebook p-1"></i>

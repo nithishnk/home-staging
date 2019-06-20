@@ -12,7 +12,7 @@
 {
 background-color: rgba(0, 0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(http://hnd-demo.detheme.com/textrotator/wp-content/uploads/sites/18/revslider/text-rotator/shutterstock_103139489.jpg);
+    background-image: url("../../../images/Home/banner.jpg");
     background-size: cover;
     background-position: center top;
     width: 100%;
