@@ -4,6 +4,9 @@ max-width: 100% !important;
 height:  100% !important;
 background-color: #FAFAFA !important;
 }
+.jss1 {
+  max-width: 100% !important;
+}
 
 .txt-sldd .MuiTypography-root {
   max-width: 50% !important;
