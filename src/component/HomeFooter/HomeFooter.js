@@ -9,7 +9,7 @@ export default class HomeFooter extends Component {
             <div>
             <Parallax
               blur={{ min: -15, max: 15 }}
-              bgImage={require('../../images/sofa.jpg')}
+              bgImage={require('../../images/Home/footer.png')}
               bgImageAlt="Men"
               strength={200}
             >
