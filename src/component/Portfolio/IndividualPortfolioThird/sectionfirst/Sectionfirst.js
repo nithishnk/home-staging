@@ -13,11 +13,11 @@ export default class Sectionfirst extends Component {
       <div className="container ">
       <div className="row ">
       <div className="col-md-6">
-        <h2 className="mt-5"></h2>
-        <span className="txt-property">Transformed it into a beautiful home with enormous natural lights.</span>
+        <h2 className="mt-5 txt-head">STATELY RESIDENCE</h2>
+        <span className="txt-property">Adding small things make the place more vivacious.</span>
         </div>
   <div className="col-md-6 pr-5" style={{fontSize:"1.2em"}}>
-        <p className="m-5">After inspecting and analyzing the residence up for sale, the most obvious issues were taken care of before home staging. Our opulent furnishings make the home a welcoming and alluring place that makes a customer feel happy and vibrant. It involved a lot of change in colour and other architectural changes.</p>
+        <p className="m-5">At Stately Residence, we mainly concentrated on accessories, lamps, and fixtures as it had a beautiful living room and needed some de-cluttering. We enhanced the place with beautiful and spacious wooden cabinets. Our staged home was sold in less than 24 hours!</p>
         <h6 className="share">SHARE</h6>
         <div className="share">
         <i class="fab fa-facebook p-1"></i>

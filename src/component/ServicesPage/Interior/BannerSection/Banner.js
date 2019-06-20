@@ -7,7 +7,7 @@ const Banner = ({bannerheader, home, protfolio, currentpage}) => {
     return (
         <div className="bannerSectionWrapper">
             <div className="bannerHeaderWrapper">
-                <h1>Vacant Staging</h1>
+                <h1>Interior Designing (Redesign)</h1>
             </div>
         </div>
     )

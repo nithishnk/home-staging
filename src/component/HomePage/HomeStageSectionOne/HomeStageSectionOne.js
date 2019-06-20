@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './HomeStageSectionOne.css'
 import {Button, ButtonToolbar} from 'react-bootstrap'
+import HomeStageSectionTwo from '../HomeStageSectionTwo/HomeStageSectionTwo'
 export default class HomeStageSectionOne extends Component {
     render() {
         return (

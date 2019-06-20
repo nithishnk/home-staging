@@ -20,7 +20,7 @@ export default class Firstsec extends Component {
 	state={
 bannerheader:"All Services",
 home:"HOME",
-protfolio:"PORTFOLIO",
+protfolio:"SERVICES",
 currentpage:"All Services",
 }
 

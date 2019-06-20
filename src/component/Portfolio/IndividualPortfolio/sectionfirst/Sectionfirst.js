@@ -13,7 +13,7 @@ export default class Sectionfirst extends Component {
       <div className="container ">
       <div className="row ">
       <div className="col-md-6">
-        <h2 className="mt-5"></h2>
+        <h2 className="mt-5 txt-head">BLOOMFIELD ST.</h2>
         <span className="txt-property">Transformed it into a beautiful home with enormous natural lights.</span>
         </div>
   <div className="col-md-6 pr-5" style={{fontSize:"1.2em"}}>

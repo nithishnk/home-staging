@@ -6,6 +6,7 @@ import Occupied from '../src/component/ServicesPage/Occupied/IndividualPortfolio
 import Individuals from '../src/component/ServicesPage/Individuals/IndividualPortfolioSecond'
 import Brokers from '../src/component/ServicesPage/Brokers/IndividualPortfolioSecond'
 import RealEstate from '../src/component/ServicesPage/RealEstate/IndividualPortfolioSecond'
+import Interior from '../src/component/ServicesPage/Interior/IndividualPortfolioSecond'
 
 import Contact from './component/ContactUs/Contact'
 import Portfolio from './component/Portfolio/portfolio';
@@ -33,12 +34,13 @@ export default class Firstsec extends Component {
 		<Route path="/Individuals" exact component={Individuals}/>
 		<Route path="/Brokers" exact component={Brokers}/>
 		<Route path="/RealEstate" exact component={RealEstate}/>
+		<Route path="/Interior" exact component={Interior}/>
 		<Route path="/contact" exact component={Contact}/>
 		<Route path="/portfolio" exact component={Portfolio}/>
 		<Route path="/IndividualPortfolioOne" exact component={IndividualPortfolioOne}/>
 		<Route path="/IndividualPortfolioTwo" exact component={IndividualPortfolioTwo}/>
 		<Route path="/IndividualPortfolioThree" exact component={IndividualPortfolioThree}/>
-		<Route path="/IndividualPortfolioFousr" exact component={IndividualPortfolioFour}/>
+		<Route path="/IndividualPortfolioFour" exact component={IndividualPortfolioFour}/>
 		<Route path="/IndividualPortfolioFive" exact component={IndividualPortfolioFive}/>
 		<Route path="/IndividualPortfolioSix" exact component={IndividualPortfolioSix}/>
 		<Route path="/IndividualPortfolioSeven" exact component={IndividualPortfolioSeven}/>

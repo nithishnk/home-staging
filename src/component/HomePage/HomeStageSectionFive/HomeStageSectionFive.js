@@ -27,7 +27,7 @@ export default class Sectionone extends Component {
 <div class="content-details content-details-modi fadeIn-top">
 <div class="group">
 
-<p className="pfont">Interior Design</p>
+<p className="pfont"></p>
 <h4>Bloomfield St.</h4>
 
 <span className=" spans pfont">View details</span>
@@ -45,8 +45,8 @@ export default class Sectionone extends Component {
 <div class="content-details fadeIn-top">
 <div class="group">
 
-<p className="pfont">Interior Design</p>
-<h4>Bloomfield St.</h4>
+<p className="pfont"></p>
+<h4>HARVEY HOUSE</h4>
 
 <span className="spans pfont">View details</span>
 </div>
@@ -60,8 +60,8 @@ export default class Sectionone extends Component {
 <div class="content-details fadeIn-top">
 <div class="group">
 
-<p className="pfont">Vacant Staging</p>
-<h4>Bloomfield St.</h4>
+<p className="pfont"></p>
+<h4>STATELY RESIDENCE</h4>
 
 <span className="spans pfont">View details</span>
 
@@ -78,7 +78,25 @@ export default class Sectionone extends Component {
 <div class="content-details content-details-modi1 fadeIn-top">
 <div class="group">
 
-<p className="pfont">Occupied Staging</p>
+<p className="pfont"></p>
+<h4>WHITBY MANSION</h4>
+
+<span className="spans pfont">View details</span>
+
+</div>
+</div>
+</a>
+</div>
+      </div>
+      <div className="col-md-6">
+      <div class="content content_modi Content_modi_padding">
+<a href="#" target="_blank">
+<div class="content-overlay"></div>
+<img className="content-image" src={HomeBackImage1}></img>
+<div class="content-details fadeIn-top">
+<div class="group">
+
+<p className="pfont"></p>
 <h4>Bloomfield St.</h4>
 
 <span className="spans pfont">View details</span>
@@ -96,25 +114,7 @@ export default class Sectionone extends Component {
 <div class="content-details fadeIn-top">
 <div class="group">
 
-<p className="pfont">Interior Designing (Redesign)</p>
-<h4>Bloomfield St.</h4>
-
-<span className="spans pfont">View details</span>
-
-</div>
-</div>
-</a>
-</div>
-      </div>
-      <div className="col-md-6">
-      <div class="content content_modi Content_modi_padding">
-<a href="#" target="_blank">
-<div class="content-overlay"></div>
-<img className="content-image" src={HomeBackImage1}></img>
-<div class="content-details fadeIn-top">
-<div class="group">
-
-<p className="pfont">Interior Design</p>
+<p className="pfont"></p>
 <h4>Bloomfield St.</h4>
 
 <span className="spans pfont">View details</span>

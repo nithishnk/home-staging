@@ -11,6 +11,7 @@ export default class Services extends Component {
           <div className="p-3 bd-highlight"><a className="text-dark font-weight-bold" href="/Individuals">Individuals</a></div>
           <div className="p-3 bd-highlight"><a className="text-dark font-weight-bold" href="/Brokers">Brokers</a></div>
           <div className="p-3 bd-highlight"><a className="text-dark font-weight-bold" href="/RealEstate">Real Estate</a></div>
+          <div className="p-3 bd-highlight"><a className="text-dark font-weight-bold" href="/Interior">Interior Designing</a></div>
           </div>
       </div>
     )

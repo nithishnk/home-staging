@@ -13,11 +13,12 @@ export default class Sectionfirst extends Component {
       <div className="container ">
       <div className="row ">
       <div className="col-md-6">
-        <h2 className="mt-5"></h2>
-        <span className="txt-property">Transformed it into a beautiful home with enormous natural lights.</span>
+        <h2 className="mt-5 txt-head">WHITBY MANSION</h2>
+        <span className="txt-property">Finishing a basement can be a good investment.</span>
         </div>
   <div className="col-md-6 pr-5" style={{fontSize:"1.2em"}}>
-        <p className="m-5">After inspecting and analyzing the residence up for sale, the most obvious issues were taken care of before home staging. Our opulent furnishings make the home a welcoming and alluring place that makes a customer feel happy and vibrant. It involved a lot of change in colour and other architectural changes.</p>
+        <p className="m-5">Whitby Mansion was beautiful, but realtor was finding it difficult to sell. So, in addition to the home, we staged the basement into a TV room along with accessories, and cozy furniture. Customized basement, enhances the beauty of the home, making the place attractive and useful. Once it was out in the market, it sold within the time frame and above the asking price. 
+        </p>
         <h6 className="share">SHARE</h6>
         <div className="share">
         <i class="fab fa-facebook p-1"></i>
