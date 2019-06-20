@@ -18,10 +18,10 @@ export default class HomeStageSectionThree extends Component {
                           <h1 class="cont-title">Vacant Staging</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
-                          <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
+                          <p class="cont-text">Staging, can not only make your home sell faster also it can fetch higher returns on your home. </p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
-                          <Button href="#">View Detail</Button>
+                          <Button href="/service">View Detail</Button>
                           </ButtonToolbar>
                           </div>
                            </div> 
@@ -35,10 +35,10 @@ export default class HomeStageSectionThree extends Component {
                           <h1 class="cont-title">Occupied Staging</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
-                          <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
+                          <p class="cont-text">Our eye for detail will elegantly transform your dream home.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
-                          <Button href="#">View Detail</Button>
+                          <Button href="/service">View Detail</Button>
                           </ButtonToolbar>
                           </div>
                            </div> 
@@ -49,13 +49,13 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Interior}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">Interior Designing</h1>
+                          <h1 class="cont-title">Real Estate</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
-                          <p class="cont-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada.</p>
+                          <p class="cont-text"> Home staging will set you apart from other real estate agents and will be one of your portfolio's significant highlights.</p>
                          <div className="Button_Style_Home cool-link ">
                          <ButtonToolbar>
-                          <Button href="#">View Detail</Button>
+                          <Button href="/service">View Detail</Button>
                           </ButtonToolbar>
                           </div>
                            </div> 

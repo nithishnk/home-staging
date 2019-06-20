@@ -21,7 +21,7 @@ export default class Sectionone extends Component {
       <div className="col-md-6">
       
       <div class="content content_modi">
-<a href="#" target="_blank">
+<a href="/portfolio" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage}></img>
 <div class="content-details content-details-modi fadeIn-top">
@@ -39,7 +39,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-6  ">
       <div class="content content_modi  content_modi_only">
-<a href="#" target="_blank">
+<a href="/portfolio" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage1}></img>
 <div class="content-details fadeIn-top">
@@ -54,7 +54,7 @@ export default class Sectionone extends Component {
 </a>
 </div>
 <div class="content content_modi Content_modi_padding ">
-<a href="#" target="_blank">
+<a href="/portfolio" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage1}></img>
 <div class="content-details fadeIn-top">
@@ -72,7 +72,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-12">
       <div class="content content_modi Content_modi_padding">
-<a href="#" target="_blank">
+<a href="/portfolio" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image content-image1" src={Tv}></img>
 <div class="content-details content-details-modi1 fadeIn-top">
@@ -90,7 +90,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-6">
       <div class="content content_modi Content_modi_padding">
-<a href="#" target="_blank">
+<a href="/portfolio" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage1}></img>
 <div class="content-details fadeIn-top">
@@ -108,7 +108,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-6">
       <div class="content content_modi Content_modi_padding">
-<a href="#" target="_blank">
+<a href="/portfolio" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage1}></img>
 <div class="content-details fadeIn-top">
