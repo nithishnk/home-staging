@@ -11,7 +11,7 @@ export default class HomeStageSectionOne extends Component {
             {/* <h2 class="rw-sentence"></h2> */}
                 
                 <div class="rw-words rw-words-1">
-                    <h1 className="txt-slider">Homestaging Needs.</h1>
+                    <h1 className="txt-slider">Homestaging Needs</h1>
                     <h1 className="txt-slider">Exceptional Clients</h1>
                     <h1 className="txt-slider">Since decades</h1>
                     
