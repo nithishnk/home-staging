@@ -14,8 +14,8 @@ export default class HomeStageSection extends Component {
             <div className="row mx-0 MainSelection_Home">
                 <div className="container Home_MainSelection">
 
-                <h1 className="title_Home_style txt-head">Welcome to Finesse Interiors Staging</h1>
-                <h4 className="pb-5 Paragrap_style">Optimize your home and sell your property in top dollars</h4>
+                <h1 className="txt-head">Welcome to Finesse Interiors and<br></br> Home Staging</h1>
+
                 <div className="row mx-0">   
 
                 {this.state.data.map(description=>{
@@ -25,7 +25,8 @@ return(
 
 
                <div className={description.customeStyleSectionOne}>
-                   <p className="titlepargraph_style">{description.paraTitle}</p>
+               <p className="txt-italic">{description.subtitle}</p>
+                   <p className="txt-paratitle">{description.paraTitle}</p>
                    </div>
                    <div className={description.customeStyleSectiontwo}>
                    <p className="SectionTwopara_style">{description.para}</p>

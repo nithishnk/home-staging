@@ -13,7 +13,7 @@ export default class HomeStageSectionFour extends Component {
       strength={200}
     >
 <div className="parallax_main">
-      <h1 className="parallax_text link-style"><a href="/service">SEE OTHER SERVICES </a></h1>
+      <h1 className="parallax_text txt-head2 link-style"><a href="/service">SEE OTHER SERVICES </a></h1>
       </div>
       <div style={{ height: '200px' }} />
     </Parallax>

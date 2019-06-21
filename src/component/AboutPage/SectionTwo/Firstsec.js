@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import './Firstsec.css'
-import Image from '../../../images/background1.jpg'
+import Main from '../../../images/About/main.jpg'
 export default class Firstsec extends Component {
     render() {
         return (
 <div className="parent1">
             <div className="container-fluid a">
 			<div className="imagess">
-                <img src={Image} className="img-fluid"/>
+                <img src={Main} className="img-fluid"/>
 				</div>
                     <div className="container">
                     <div className="row ab">

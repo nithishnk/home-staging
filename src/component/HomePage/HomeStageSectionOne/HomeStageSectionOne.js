@@ -29,9 +29,18 @@ export default class HomeStageSectionOne extends Component {
                 </div>
             
         </section>
-        <h3 className="poet_padding">Jhon Dunmin-Poet</h3>
+        <div className="container d-flex alg-btn">
+        <div className="row">
+        <div className="col-md-12">
+        <ButtonToolbar>
+                          <Button className="btn-algn" href="#">Request a consultation</Button>
+                          </ButtonToolbar>
+                          </div>    
+                          <div className="col-md-12">
         <a href="#"><i class="fas fa-chevron-circle-down circle-style"></i></a>
-        
+        </div>
+        </div>
+        </div>
         </div>
         </div>
         </>

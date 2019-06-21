@@ -23,7 +23,7 @@ export default class Sectionone extends Component {
       <div className="col-md-6">
       
       <div class="content content_modi">
-<a href="/portfolio" target="_blank">
+<a href="/IndividualPortfolioOne" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={layout1}></img>
 <div class="content-details content-details-modi fadeIn-top">
@@ -41,7 +41,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-6  ">
       <div class="content content_modi  content_modi_only">
-<a href="/portfolio" target="_blank">
+<a href="/IndividualPortfolioTwo" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage1}></img>
 <div class="content-details fadeIn-top">
@@ -56,7 +56,7 @@ export default class Sectionone extends Component {
 </a>
 </div>
 <div class="content content_modi Content_modi_padding ">
-<a href="/portfolio" target="_blank">
+<a href="/IndividualPortfolioThree" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={layout3}></img>
 <div class="content-details fadeIn-top">
@@ -74,7 +74,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-12">
       <div class="content content_modi Content_modi_padding">
-<a href="/portfolio" target="_blank">
+<a href="/IndividualPortfolioFour" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image content-image1" src={layout4}></img>
 <div class="content-details content-details-modi1 fadeIn-top">
@@ -92,7 +92,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-6">
       <div class="content content_modi Content_modi_padding">
-<a href="/portfolio" target="_blank">
+<a href="/IndividualPortfolioFive" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={HomeBackImage1}></img>
 <div class="content-details fadeIn-top">
@@ -110,7 +110,7 @@ export default class Sectionone extends Component {
       </div>
       <div className="col-md-6">
       <div class="content content_modi Content_modi_padding">
-<a href="/portfolio" target="_blank">
+<a href="/IndividualPortfolioSix" target="_blank">
 <div class="content-overlay"></div>
 <img className="content-image" src={layout5}></img>
 <div class="content-details fadeIn-top">

@@ -1,3 +1,19 @@
+.alg-btn
+{
+    justify-content: center;
+    margin-top: 10rem;
+}
+.btn-algn
+{
+    margin-right: -4rem;
+    color:white;
+    background-color:#38a4b4;
+    
+    font-weight: bold;
+}
+.btn-algn .btn-primary{
+    border-color:none !important;
+}
 .Main_Home_Selection
 {
     /* height: 100vh; */

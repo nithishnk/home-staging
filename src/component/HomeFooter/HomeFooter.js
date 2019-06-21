@@ -61,8 +61,6 @@ export default class HomeFooter extends Component {
             <div className="row mx-0">
 <div className="col-md-6">
             <ul >
-
-
 <li className="Text_footer_home_Contant-S">© 2015 deTheme. Quality WordPress Theme by Elite Author</li>
 </ul>
 </div>

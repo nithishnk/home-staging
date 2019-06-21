@@ -4,14 +4,14 @@ import './HomeNavbar.css'
 import s from '../../images/logo.png'
 export default class HomeNavbar extends Component {
   state = {
-    backgroundColor: 'transparent;'
+    backgroundColor: '#e5e5e5;'
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 0) {
       this.setState({backgroundColor: '#e5e5e5'})
     } else {
-      this.setState({backgroundColor: 'transparent'})
+      this.setState({backgroundColor: '#e5e5e5'})
     }
   }
 

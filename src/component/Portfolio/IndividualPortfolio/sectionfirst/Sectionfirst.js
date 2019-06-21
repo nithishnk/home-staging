@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
 import '../sectionfirst/sectionfirst.css'
-import banner from '../../../../images/banner.jpg'
+
 
 export default class Sectionfirst extends Component {
   render() {
     return (
 
       <div className="bg-clr">
-      <div>
-      <img className="img-property" src={banner}></img>
-      </div>
       <div className="container ">
       <div className="row ">
       <div className="col-md-6">

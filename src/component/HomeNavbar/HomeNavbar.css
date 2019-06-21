@@ -4,7 +4,7 @@ z-index: 1;
 width: 100%;
 font-weight: bold;
 color:#444444;
-
+background-color: #e5e5e5;
 
 }
 .Navbar_Home_Section :hover{
@@ -69,6 +69,7 @@ color:#444444;
 .stky
 {
     position: fixed;
+    
 }
 .logo-pad{
     padding-top: 0;

@@ -7,9 +7,6 @@ export default class Sectionfirst extends Component {
     return (
 
       <div className="bg-clr">
-      <div>
-      <img className="img-property" src={banner}></img>
-      </div>
       <div className="container ">
       <div className="row ">
       <div className="col-md-6">

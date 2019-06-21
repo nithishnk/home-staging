@@ -15,7 +15,7 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Kitchen}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">Vacant Staging</h1>
+                          <h1 class="txt-head2">Vacant Staging</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
                           <p class="cont-text">Staging, can not only make your home sell faster also it can fetch higher returns on your home. </p>
@@ -32,7 +32,7 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Flooring}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">Occupied Staging</h1>
+                          <h1 class="txt-head2">Occupied Staging</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
                           <p class="cont-text">Our eye for detail will elegantly transform your dream home.</p>
@@ -49,7 +49,7 @@ export default class HomeStageSectionThree extends Component {
                          <div class="cont-overlay"></div>
                           <img class="cont-image" src={Interior}/>
                           <div  className="cont-details1 fadeIn-bottom">
-                          <h1 class="cont-title">Real Estate</h1>
+                          <h1 class="txt-head2">Real Estate</h1>
                            </div>
                           <div class="cont-details   fadeIn-bottom">
                           <p class="cont-text"> Home staging will set you apart from other real estate agents and will be one of your portfolio's significant highlights.</p>

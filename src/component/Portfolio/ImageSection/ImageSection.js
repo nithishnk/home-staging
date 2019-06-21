@@ -1,6 +1,12 @@
 import React from 'react'
 import './ImageSection.css'
 import {Carousel} from 'react-bootstrap'
+import Grid1 from '../../../images/Portfolio/grid1.png'
+import Grid2 from '../../../images/Portfolio/grid2.png'
+import Grid3 from '../../../images/Portfolio/grid3.png'
+import Grid4 from '../../../images/Portfolio/grid4.png'
+import Grid5 from '../../../images/Portfolio/grid5.png'
+import Grid6 from '../../../images/Portfolio/grid6.png'
 
 
 class ImageSection extends React.Component{
@@ -12,42 +18,42 @@ para:'Vacant',
 header:'Bloomfield St.',
 viewmore:'/IndividualPortfolioOne',
 
-image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
+image:Grid1
 },
 {
 id:2,
 para:'Occupied',
 header:'HARVEY HOUSE.',
 viewmore:'/IndividualPortfolioTwo',
-image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
+image:Grid2
 },
 {
 id:3,
 para:'Occupied',
 header:'STATELY RESIDENCE.',
 viewmore:'/IndividualPortfolioThree',
-image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
+image:Grid3
 },
 {
 id:4,
 para:'Individuals',
 header:'WHITBY MANSION.',
 viewmore:'/IndividualPortfolioFour',
-image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
+image:Grid4
 },
 {
 id:5,
 para:'Individuals',
 header:'Windsor Brooklyn*.',
 viewmore:'/IndividualPortfolioFive',
-image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
+image:Grid5
 },
 {
 id:6,
 para:'Vacant',
 header:'Banwell House.',
 viewmore:'/IndividualPortfolioSix',
-image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
+image:Grid6
 },
 
 ],
