@@ -11,10 +11,10 @@ export default class Sectionfirst extends Component {
       <div className="row ">
       <div className="col-md-6">
         <h2 className="mt-5 txt-head">BANWELL HOUSE</h2>
-        <span className="txt-property">Make the best use of what is already available.</span>
+        <span className="txt-italic">Make the best use of what is already available.</span>
         </div>
   <div className="col-md-6 pr-5" style={{fontSize:"1.2em"}}>
-        <p className="m-5">We have done some de-cluttering in Banwell House to remove all private items so that customers can imagine themselves in the home. Staging with furniture that blends with home allows customers to focus on what they like about their home.
+        <p className="m-5 txt-para">We have done some de-cluttering in Banwell House to remove all private items so that customers can imagine themselves in the home. Staging with furniture that blends with home allows customers to focus on what they like about their home.
         The color of the wall enhanced natural light beauty, making the building very tempting and attractive. Considering that we added a center painting, and a hanging chandelier made the room more pleasing giving it a fresh look. Adequately scaled nightlamps made it look great to match the chandelier. 
         According to statistics, if the home is staged, there are 49 percent increases in the dollar value offered.</p>
         <h6 className="share">SHARE</h6>

@@ -17,6 +17,7 @@ id:1,
 para:'Vacant',
 header:'Bloomfield St.',
 viewmore:'/IndividualPortfolioOne',
+link:'/IndividualPortfolioOne',
 
 image:Grid1
 },
@@ -25,6 +26,7 @@ id:2,
 para:'Occupied',
 header:'HARVEY HOUSE.',
 viewmore:'/IndividualPortfolioTwo',
+link:'/IndividualPortfolioTwo',
 image:Grid2
 },
 {
@@ -32,6 +34,7 @@ id:3,
 para:'Occupied',
 header:'STATELY RESIDENCE.',
 viewmore:'/IndividualPortfolioThree',
+link:'/IndividualPortfolioThree',
 image:Grid3
 },
 {
@@ -39,13 +42,15 @@ id:4,
 para:'Individuals',
 header:'WHITBY MANSION.',
 viewmore:'/IndividualPortfolioFour',
+link:'/IndividualPortfolioFour',
 image:Grid4
 },
 {
 id:5,
 para:'Individuals',
-header:'Windsor Brooklyn*.',
+header:'Windsor Brooklyn.',
 viewmore:'/IndividualPortfolioFive',
+link:'/IndividualPortfolioFive',
 image:Grid5
 },
 {
@@ -53,6 +58,7 @@ id:6,
 para:'Vacant',
 header:'Banwell House.',
 viewmore:'/IndividualPortfolioSix',
+link:'/IndividualPortfolioSix',
 image:Grid6
 },
 
@@ -89,7 +95,7 @@ return(
 <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 imgPds p-4">
 
 <div class="content">
-<a href="#" target="_blank">
+<a href={data.link} target="_blank">
 <div class="content-overlay"></div>
 <img class="content-image" src={data.image}/>
 <div class="content-details fadeIn-top">

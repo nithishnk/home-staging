@@ -44,7 +44,7 @@ export default class header extends Component {
 </div>
 <div className=" col-md-1 col-sm-12 sidenav">
 <a class="fab fa-facebook" ></a>
-<a class="fab fa-instagram" aria-hidden="true"></a>
+<a href="https://www.instagram.com/finesse_interiors_staging/" class="fab fa-instagram" aria-hidden="true"></a>
 <a class="fab fa-twitter" ></a>
 <a class="fab fa-linkedin" ></a>
 </div>

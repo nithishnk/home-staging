@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './SectionFour.css'
-import Logo1 from '../../../images/logo01.png'
+import Insta1 from '../../../images/About/insta1.png'
+import Insta2 from '../../../images/About/insta2.png'
+import Insta3 from '../../../images/About/insta3.png'
+import Insta4 from '../../../images/About/insta4.png'
 export default class About extends Component {
 render()
 {
@@ -20,16 +23,16 @@ Feel free to contact me for all of your staging needs.</p>
 <h1 className="modifiedtext" style={{fontSize:"35px",paddingTop:"30px"}}>Instagram Photos</h1>
 <div className="row pt-5 pb-5">
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Logo1}/>
+<img src={Insta1}/>
 </div>
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Logo1}/>
+<img src={Insta2}/>
 </div>
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Logo1}/>
+<img src={Insta3}/>
 </div>
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Logo1}/>
+<img src={Insta4}/>
 </div>
 </div>
 </div>

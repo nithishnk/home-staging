@@ -29,9 +29,9 @@ export default class HomeFooter extends Component {
                           <Button href="#">Request a consultation</Button>
                           </ButtonToolbar>
                           <i class="fab fa-facebook-f"></i>
-                          <i class="fab fa-twitter"></i>
-                          <i class="fab fa-google-plus-g"></i>
-                          <i class="fab fa-pinterest-p"></i>
+                          <i class="fab fa-instagram"></i>
+                          <i class="far fa-envelope-open fa-lg"></i>
+                          
             </div>
 
             <div className="row mx-0">
