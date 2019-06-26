@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './SectionFour.css'
+import logo from '../../../images/logo01.png'
 import Insta1 from '../../../images/About/insta1.png'
 import Insta2 from '../../../images/About/insta2.png'
 import Insta3 from '../../../images/About/insta3.png'
 import Insta4 from '../../../images/About/insta4.png'
 export default class About extends Component {
 render()
-{
+{ 
 return(
 <div className="pl-3 pr-3">
 <div className="container-fluid" style={{backgroundColor:"#f3f3f3"}}>
@@ -23,16 +24,16 @@ Feel free to contact me for all of your staging needs.</p>
 <h1 className="modifiedtext" style={{fontSize:"35px",paddingTop:"30px"}}>Instagram Photos</h1>
 <div className="row pt-5 pb-5">
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Insta1}/>
+<img src={logo}/>
 </div>
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Insta2}/>
+<img src={logo}/>
 </div>
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Insta3}/>
+<img src={logo}/>
 </div>
 <div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={Insta4}/>
+<img src={logo}/>
 </div>
 </div>
 </div>

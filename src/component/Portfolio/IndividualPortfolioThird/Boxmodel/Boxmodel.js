@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import {  Modal,  } from 'react-bootstrap';
-import Sofa from '../../../../images/sofa.png'
-import Hall from '../../../../images/hall.png'
-import Bed from '../../../../images/bedroomimage.png'
-import Lift from '../../../../images/lift.png'
-import Cross from '../../../../images/cross.png'
-import floor from '../../../../images/floor.png'
+import potrait3 from '../../../../images/Portfolio/potrait3.jpg'
+import landscape3 from '../../../../images/Portfolio/landscape3.jpg'
+import broom3 from '../../../../images/Portfolio/broom3.jpg'
+import kitchen3 from '../../../../images/Portfolio/kitchen3.jpg'
 import Before from '../../../../images/Portfolio/b3.png'
 import After from '../../../../images/Portfolio/a3.png'
 import './Boxmodel.css'
@@ -56,7 +54,7 @@ export default class Boxmodel extends Component {
 <article id="link-boxes">
   	
 			<a ui-sref="connect" id="careers" class="gold-outliner" >
-				<img className="IM" src={Sofa}  /> 
+				<img className="IM" src={potrait3}  /> 
 				<div class="overlay">
 					<div class="text-border text-border-top"></div>
 					<p onClick={this.handleShow}><i class="fas fa-search G_T"></i></p>
@@ -107,7 +105,7 @@ export default class Boxmodel extends Component {
 <article id="link-boxes">
   	
 			<a ui-sref="connect" id="careers" class="gold-outliner" >
-				<img className="IM" src={Lift }  /> 
+				<img className="IM" src={landscape3}  /> 
 				<div class="overlay">
 					<div class="text-border text-border-top"></div>
 					<p onClick={this.HandleShow2}><i class="fas fa-search G_T"></i></p>
@@ -125,7 +123,7 @@ export default class Boxmodel extends Component {
 <article id="link-boxes">
   	
 			<a ui-sref="connect" id="careers" class="gold-outliner" >
-				<img className="IM" src={floor}  /> 
+				<img className="IM" src={broom3}  /> 
 				<div class="overlay">
 					<div class="text-border text-border-top"></div>
 					<p onClick={this.HandleShow3}><i class="fas fa-search G_T"></i></p>
@@ -142,7 +140,7 @@ export default class Boxmodel extends Component {
 <article id="link-boxes">
   	
 			<a ui-sref="connect" id="careers" class="gold-outliner" >
-				<img className="IM" src={Cross}  /> 
+				<img className="IM" src={kitchen3}  /> 
 				<div class="overlay">
 					<div class="text-border text-border-top"></div>
 					<p onClick={this.HandleShow4}><i class="fas fa-search G_T"></i></p>
@@ -161,7 +159,7 @@ export default class Boxmodel extends Component {
         
   
           <Modal show={this.state.show} onHide={this.handleClose}>
-          <img class="content-ima" src={Sofa}/>
+          <img class="content-ima" src={potrait3}/>
           </Modal>
           <Modal show={this.state.show1} onHide={this.handleClose}>
           <img class="content-ima img-wid" src={Before}/>
@@ -170,13 +168,13 @@ export default class Boxmodel extends Component {
           <img class="content-ima img-wid" src={After}/>
           </Modal>
           <Modal show={this.state.show2} onHide={this.handleClose}>
-          <img class="content-ima" src={Lift}/>
+          <img class="content-ima" src={landscape3}/>
           </Modal>
           <Modal show={this.state.show3} onHide={this.handleClose}>
-          <img class="content-ima" src={floor}/>
+          <img class="content-ima" src={broom3}/>
           </Modal>
           <Modal show={this.state.show4} onHide={this.handleClose}>
-          <img class="content-ima" src={Cross}/>
+          <img class="content-ima" src={kitchen3}/>
           </Modal>
 
           </div>
