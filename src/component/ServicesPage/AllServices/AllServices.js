@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import {Button, ButtonToolbar} from 'react-bootstrap'
 import '../AllServices/AllServices.css'
-import Vacant from '../../../images/service_vacant.jpg'
-import Occupied from '../../../images/service_2.jpg'
-import Individuals from '../../../images/service_3.jpg'
-import Brokers from '../../../images/service_4.jpg'
-import RealEstate from '../../../images/service_5.jpg'
+import Vacant from '../../../images/Service/01.jpg'
+import Occupied from '../../../images/Service/02.jpg'
+import Individuals from '../../../images/Service/03.jpg'
+import Brokers from '../../../images/Service/04.jpg'
+import RealEstate from '../../../images/Service/05.jpg'
 
 
 export default class HomeStageSectionThree extends Component {

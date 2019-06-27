@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './SectionFour.css'
-import logo from '../../../images/logo01.png'
-import Insta1 from '../../../images/About/insta1.png'
-import Insta2 from '../../../images/About/insta2.png'
-import Insta3 from '../../../images/About/insta3.png'
-import Insta4 from '../../../images/About/insta4.png'
+
+import Insta1 from '../SectionFour/Insta1'
+import Insta2 from '../SectionFour/Insta2'
+import Insta3 from '../SectionFour/Insta3'
+import Insta4 from '../SectionFour/Insta4'
+
 export default class About extends Component {
 render()
 { 
@@ -23,18 +24,16 @@ When Sue is not working she loves spending quiet time in her backyard oasis as w
 Feel free to contact me for all of your staging needs.</p>
 <h1 className="modifiedtext" style={{fontSize:"35px",paddingTop:"30px"}}>Instagram Photos</h1>
 <div className="row pt-5 pb-5">
-<div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={logo}/>
+<div className="col-md-4 col-sm-12 alignment pt-1">
+<Insta1/>
 </div>
-<div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={logo}/>
+<div className="col-md-4 col-sm-12 alignment pt-1">
+<Insta2/>
 </div>
-<div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={logo}/>
+<div className="col-md-4 col-sm-12 alignment pt-1">
+<Insta3/>
 </div>
-<div className="col-md-3 col-sm-12 alignment pt-1">
-<img src={logo}/>
-</div>
+
 </div>
 </div>
 </div>
