@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import '../sectionone/sectionone.css'
-import project1 from '../../../../images/project1.jpg'
-import project2 from '../../../../images/project2.jpg'
-import project3 from '../../../../images/project3.jpg'
+import project1 from '../../../../images/Service/vacant/left_image.jpg'
+import project2 from '../../../../images/Service/vacant/center_image.jpg'
+import project3 from '../../../../images/Service/vacant/right_image.jpg'
 export default class Sectionone extends Component {
   render() {
     return (
