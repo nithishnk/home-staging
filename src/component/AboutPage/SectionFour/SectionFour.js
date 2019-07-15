@@ -14,14 +14,11 @@ return(
 <div className="container-fluid" style={{backgroundColor:"#f3f3f3"}}>
 <div className="container afterimage" data-aos="fade-right">
 <h1 className="modifiedtext" >THE TALENT BEHIND THE REPUTATION</h1>
-<h2 style={{fontFamily:"lora",fontStyle:"italic",color:"rgb(146, 146, 146)",paddingBottom:"20px",paddingTop:"20px"}}>Design your interior to be timeless, sustainable, efficient and beautiful.</h2>
-<p className="fourthsectionpara"><strong>With Sue</strong> dedication and passion her warehouse now consists of 3000 sq ft of impressive furniture and decor to fill a house from needing a simple layer of WOW to a completely vacant property. </p>
-<p className="fourthsectionpara">Once she is done with her property, they say that it does look like model homes.⠀
-Sue is extremely focussed and does her best with each project. </p>
-<p className="fourthsectionpara"> Her goal for each property is that she transforms it into getting it sold for TOP DOLLAR in record time! 
-When Sue is not working she loves spending quiet time in her backyard oasis as well as hosting pool parties for family and friends.</p>
-<p className="fourthsectionpara">Sue raises funds for Breast Cancer Research (Sue is an eight-year survivor) and volunteers in many ways.
-Feel free to contact me for all of your staging needs.</p>
+<h2 style={{fontFamily:"lora",fontStyle:"italic",color:"rgb(146, 146, 146)",paddingBottom:"20px",paddingTop:"20px"}}>"Staging your property to be timeless and elegant for potential Buyers." ~Sue Kempton</h2>
+<p className="fourthsectionpara"><strong>With Sue</strong> With Sue's dedication and passion, her warehouse now consists of 3000 sq ft of luxurious furniture and decor to style a house from a simple layer of WOW to a completely vacant property.</p>
+<p className="fourthsectionpara">Once she is done with her properties, they take on the look of Model Homes.</p>
+<p className="fourthsectionpara">Sue's goal for each property is to transform them to get SOLD for TOP DOLLAR in RECORD TIME! </p>
+<p className="fourthsectionpara">Sue is an eight year Breast Cancer Survivor and spends much of her time fundraising for this very important cause.</p>
 <h1 className="modifiedtext" style={{fontSize:"35px",paddingTop:"30px"}}>Instagram Photos</h1>
 <div className="row pt-5 pb-5">
 <div className="col-md-4 col-sm-12 alignment pt-1">

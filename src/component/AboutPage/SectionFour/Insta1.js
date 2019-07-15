@@ -5,7 +5,7 @@ export default class Insta extends Component {
   render() {
     return (
       <div>
-      <InstagramEmbed
+      <InstagramEmbed 
       url='https://www.instagram.com/p/BzMBudbH6Zr/'
       maxWidth={100}
       hideCaption={true}
@@ -21,3 +21,6 @@ export default class Insta extends Component {
     )
   }
 }
+
+
+

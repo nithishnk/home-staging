@@ -12,11 +12,12 @@ export default class Firstsec extends Component {
                     <div className="container">
                     <div className="row ab">
                      <div className="col-md-6 col-sm-12" data-aos="fade-right">
-                                <p className="text1" >HI! GOOD TO SEE YOU</p>
-                                <p className="text2">I LOVE when the sold price is a record-breaking price for the street…which happens OFTEN!” Sue Kempton.</p>
+                                <p className="text1" >HI! Glad you stopped by!</p>
+                                <p className="text2">"I LOVE when the SOLD price is a record-breaking price for the street…which happens OFTEN!” ~ Sue Kempton.
+                                </p>
                             </div>
                      <div className="col-md-6 col-sm-12" data-aos="fade-left">
-                                <p className="text3">Sue Kempton has over 20 years of experience in home staging. Sue is extremely focussed and does her best with each project. Her goal for each property is that she transforms it into getting it sold for TOP DOLLAR in record time! </p>
+                                <p className="text3">Sue Kempton has over 20 years of experience in Home Staging. Sue is extremely focused and does her magic with each Staging transformation. Her goal, for each property, SOLD for TOP DOLLAR in RECORD TIME!</p>
                             </div>
                         </div>
                     </div>

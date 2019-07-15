@@ -7,7 +7,7 @@ export default class HomeStageSectionPhoto extends Component {
     state={
         data:[
 
-            {  customeStyleSectionOne:'col-md-4 Photo_border_right ' ,photo:Round1,  title:'WHY US',para:'We have many years of experience in designing homes with innovation and fine workmanship.'},
+            {  customeStyleSectionOne:'col-md-4 Photo_border_right ' ,photo:Round1,  title:'WHY US',para:'Let us get you Top Dollar for your Property! We are Durhams Premier Real Estate Staging Company and a Billion Dollar Stager.'},
             {customeStyleSectionOne:'col-md-4 Photo_border_right ', photo:Round2,  title:'VISION & MISSION',para:'Our vision and mission is to maximize your profits by Homestaging.'},
             {customeStyleSectionOne:'col-md-4 Photo_border_right_no', photo:Round3,  title:'OUR VALUES',para:'Passion and dedication for our work makes us provide 100% customer satisfaction.'}
         ]

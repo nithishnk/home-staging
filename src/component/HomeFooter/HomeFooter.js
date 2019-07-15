@@ -39,18 +39,18 @@ export default class HomeFooter extends Component {
     <ul >
 
         <li className="Text_footer_home_Contant-header">HEAD OFFICE</li>
-        <li className="Text_footer_home_Contant">Home & Decor</li>
-        <li className="Text_footer_home_Contant">22 N 12th St New York, NY</li>
-        <li className="Text_footer_home_Contant">contact@yoursite.com</li>
+        <li className="Text_footer_home_Contant">Sue Kempton</li>
+        <li className="Text_footer_home_Contant">416.271.7846</li>
+        <li className="Text_footer_home_Contant">finesseinteriors@rogers.com</li>
     </ul>
     </div>
     <div className="col-md-6">
     <ul>
 
         <li className="Text_footer_home_Contant-header_sub">REPRESENTATIVE OFFICE</li>
-        <li className="Text_footer_home_Contant_sub">Home & Decor</li>
-        <li className="Text_footer_home_Contant_sub">Bolder Folsom Ave, Suite 600, San Francisco</li>
-        <li className="Text_footer_home_Contant_sub">contact@yoursite.com</li>
+        <li className="Text_footer_home_Contant_sub">Sarah Brasil</li>
+        <li className="Text_footer_home_Contant_sub">905.299.3957</li>
+        <li className="Text_footer_home_Contant_sub">sbrasilmedia@gmail.com</li>
     </ul>
     </div>
 

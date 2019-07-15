@@ -13,22 +13,29 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
   {
-    label: '“We just walked in and there were no words to describe how beautiful it feels in here. We are very impressed and so very excited. Hats off to you and your team”',
-    name:'MARTHA STANLEY',
-    para:'South Carolina',
+    label: '“I had the pleasure of recently using Sue`s incredible staging service for a recent listing of mine and I am hooked! Sue is incredible! Magic really! She has the ability to make homes come alive and tell a story. But not only is the service impeccable, but so is she. This listing had a very emotional component attached to it and Sue was warm, caring and gentle with my clients - just what they needed in order to feel comfortable with having her come in and work her magic with the home. Thank You! Thank You! Thank You! Don`t hesitate to give Sue a call - you`ll be VERY happy you did!”',
+    name:'DENA SICARD',
+    para:'Realtor',
   },
   {
-    label: '“Your beautiful staging was the key in making these offers pour in so quickly!You Absoulutly kick ass at what you do lady!”',
-    name:'Sergio Ramos',
-    para:'Central Madrid',
+    label: '“This lady deserves more than 5 stars!! I had the pleasure of meeting Sue last year and it has completely changed my business and the way I offer service to my sellers. Sue is a master at her craft and has the ability to transform a space and home well in advance of actually staging it. When she adds her magic touch of elegance and sophistication, my sellers are always blown away with the results and many of them have brought her to their new homes once they move for decorating advice. Thank you Sue for all you have done and continue to do for me and my clients!!”',
+    name:'Roxanne Meek',
+    para:'Realtor',
   },
   {
-    label: '“This look amazing! you guys did an unreal job. Worth every penny. Not to mention you were an absolute joy to work with”.',
-    para:'Central Madrid',
+    label: '“Sue is one of a kind! She will help you transform your outdated home and make it a modern place where you want to live with your family. My husband was not sold on the idea of someone assisting us with this endeavour. He now quotes her regularly as we move on to the next room in our house. If you are selling your home, we highly recommend Sue. Her professional approach and expert advice will have your home SOLD in record time. Thanks again, Sue! ”',
+    name:'CL',
+    para:'Homeowner',
   },
   {
-    label: '“I have had many people tell me how amazing it looks and what a transformation it was. Your eye for simple elegance showcased our house in the best light”.',
-    para:'Central Madrid',
+    label: '“Sue staged our house for sale and I have to honestly say I was very nervous she was going to come in and criticize our home. I felt an unbelievable comfort from the moment she walked in. She is not there to tear your home apart. Her job is to accent and display the best features of your home. She added sparkle and l style and I only wish I meet her years ago. After she was done making our home shine we sold in 5 days for 90k above asking”.',
+    name:'SB',
+    para:'Homeowner',
+  },
+  {
+    label: '“Sue is an absolute GENIUS!!! The way she transforms a space is magical and is so amazing with my clients!”',
+    name:'Jane Thuet',
+    para:'Realtor',
   }
   
 ];
@@ -42,7 +49,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
   
-    paddingLeft: theme.spacing(4),
+    paddingLeft: theme.spacing(1),
     backgroundColor: theme.palette.background.default,
   },
   img: {
@@ -89,8 +96,8 @@ function SwipeableTextMobileStepper() {
           
             {Math.abs(activeStep - index) <= 2 ? (
 
-              <div><p className="lab-style">{step.label}</p> {/*<p className="style-txt  pt-5"> {step.name}</p>
-            <p className="style-txt2">{step.para}</p>*/} 
+              <div><p className="lab-style">{step.label}</p> <p className="style-txt  pt-5"> {step.name}</p>
+           <p className="style-txt2">{step.para}</p>
               </div>
               
             ) : null}
