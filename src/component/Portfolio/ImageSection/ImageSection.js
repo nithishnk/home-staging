@@ -15,7 +15,7 @@ firstslideimages:[
 {
 id:1,
 para:'Vacant',
-header:'Bloomfield St.',
+header:'The Savannah Residence',
 viewmore:'/IndividualPortfolioOne',
 link:'/IndividualPortfolioOne',
 
@@ -24,7 +24,7 @@ image:Grid1
 {
 id:2,
 para:'Occupied',
-header:'HARVEY HOUSE.',
+header:'The Highbrooke House',
 viewmore:'/IndividualPortfolioTwo',
 link:'/IndividualPortfolioTwo',
 image:Grid2
@@ -32,7 +32,7 @@ image:Grid2
 {
 id:3,
 para:'Occupied',
-header:'STATELY RESIDENCE.',
+header:'Wondrous Watford',
 viewmore:'/IndividualPortfolioThree',
 link:'/IndividualPortfolioThree',
 image:Grid3
@@ -95,7 +95,7 @@ return(
 <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 imgPds p-4">
 
 <div class="content">
-<a href={data.link} target="_blank">
+<a href={data.link}>
 <div class="content-overlay"></div>
 <img class="content-image" src={data.image}/>
 <div class="content-details fadeIn-top">
