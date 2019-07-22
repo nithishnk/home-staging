@@ -36,7 +36,16 @@ const tutorialSteps = [
     label: '“Sue is an absolute GENIUS!!! The way she transforms a space is magical and is so amazing with my clients!”',
     name:'Jane Thuet',
     para:'Realtor',
-  }
+  },
+  {
+    label: '“Sensational Sagebrush...This property was a real ‘labour of love’ for the Seller, He was so proud that he did most of the work himself!  His use of different ceiling styles in the same space really captured its uniqueness which ultimately helped to sell the house in mere days! In some cases, we simply do not have the time or allotted budget to do big changes to get market ready.  In those cases we do small things like in this master bedroom.  We simply changed the colour of the one wall.  What an impact THAT had!  And then there is wallpaper!  All I can say is thank goodness this one was neutral because it wasn’t going anywhere!”'
+  },
+  {
+    label: '“The Nature Haven Residence...Sometimes, the changes we make to a space may only be to attract the younger Buyer.  This property was very well appointed.  The only challenge was that it reminded me of Mom’s place.  We all love our Mom’s but we don’t want to live in HER space.  My job was to make it VERY appealing to the younger generation!  Nailed it!”',
+  },
+  {
+    label: '“The Gyatt House...This house had BEAUTIFUL features and AMAZING style already!  I simply needed to bring it over the top!  The goal at Finesse Interiors Real Estate Staging is to bring the WOW…right from the front door!  Our Model Home style gives the space the neutrality it needs and the elegance it deserves.  We want the Buyer experience to be one-in-a-million! Just a side note…all the chalk styled writing you see throughout the space was done by the Homeowner!”',
+  },
   
 ];
 
